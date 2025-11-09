@@ -7,6 +7,8 @@ Save as clustersize_check.ps1
 Run in PowerShell as Administrator (for best SMART data):powershellSet-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 .\clustersize_check.ps1
 Open drive_info.html in any browser.
+<img width="3418" height="997" alt="image" src="https://github.com/user-attachments/assets/f9558629-89b5-4f1a-be9c-c5bd890c5bac" />
+
 TIP!
 Run as Admin → Full SMART + Performance
 Double-click script → Works if .ps1 is associated
