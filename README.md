@@ -27,7 +27,7 @@ Performance Health Indicator
 Live 5-second sampling for accurate metrics
 
 The script:
-<code><span class="line"><span style="color: rgb(53, 123, 66); font-style: italic;"># clustersize_check.ps1</span></span>
+<pre class="shiki slack-ochin" tabindex="0" style="background-color: rgb(255, 255, 255); color: rgb(0, 35, 57);"><code><span class="line"><span style="color: rgb(53, 123, 66); font-style: italic;"># clustersize_check.ps1</span></span>
 <span class="line"><span style="color: rgb(53, 123, 66); font-style: italic;"># Full Drive Report: Size, Health, Cluster, Performance</span></span>
 <span class="line"></span>
 <span class="line"><span style="color: rgb(47, 134, 210);">$ErrorActionPreference</span><span style="color: rgb(123, 48, 208);"> =</span><span style="color: rgb(164, 65, 133);"> 'SilentlyContinue'</span></span>
@@ -266,4 +266,4 @@ The script:
 <span class="line"></span>
 <span class="line"><span style="color: rgb(26, 179, 148);">Write-Host</span><span style="color: rgb(164, 65, 133);"> "</span><span style="color: rgb(23, 71, 129);">`n</span><span style="color: rgb(164, 65, 133);">Drive report with performance metrics exported to: "</span><span style="color: rgb(123, 48, 208);"> -</span><span style="color: rgb(0, 35, 57);">NoNewline</span></span>
 <span class="line"><span style="color: rgb(26, 179, 148);">Write-Host</span><span style="color: rgb(164, 65, 133);"> "drive_info.html"</span><span style="color: rgb(123, 48, 208);"> -</span><span style="color: rgb(0, 35, 57);">ForegroundColor Green</span></span>
-<span class="line"><span style="color: rgb(26, 179, 148);">Write-Host</span><span style="color: rgb(164, 65, 133);"> "Open in browser to view full interactive report.</span><span style="color: rgb(23, 71, 129);">`n</span><span style="color: rgb(164, 65, 133);">"</span></span></code>
+<span class="line"><span style="color: rgb(26, 179, 148);">Write-Host</span><span style="color: rgb(164, 65, 133);"> "Open in browser to view full interactive report.</span><span style="color: rgb(23, 71, 129);">`n</span><span style="color: rgb(164, 65, 133);">"</span></span></code></pre>
